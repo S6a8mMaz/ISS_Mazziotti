@@ -9,10 +9,10 @@ import unibo.basicomm23.utils.BasicMsgUtil;
 public class ServiceCallerTCPNaive {
 /*1*/  private final String destination = "servicemath";
 /*2*/  private final String sender      = "clientjava";
-/*3*/  private final String hostAddr    = "localhost";
+/*3*/  private final String hostAddr    = "130.136.113.239";
 /*4*/  private final int    port        = 8011;
 /*5*/  private final String msgid       = "dofibo";
-/*6*/  private final String msgcontent  = "dofibo(39)";
+/*6*/  private final String msgcontent  = "dofibo(10)";
 /*7*/  private Socket socket   ;
 
   public void doJob() {
